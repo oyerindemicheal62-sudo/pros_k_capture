@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #080808;
+    color: white;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #f59e0b;
+}
+h1{
+    margin-top: 70px;
+    font-size: 45px;
+    color: #f59e0b;
+    
+}
+h2{
+    margin-top: 60px;
+    font-size: 32px;
+    color: #f59e0b;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px 20px;
+}
+.gallery img{
+  width: 200px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
